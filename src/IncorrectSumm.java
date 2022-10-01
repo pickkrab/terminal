@@ -3,7 +3,7 @@
  */
 public class IncorrectSumm {
     public void incorrect(int a) {
-        if (a % 100 != 0) {
+        if (a % 98 != 0) {
             throw new IncorrectSummException("Некорректная сумма. Класть и снимать деньги можно только, если сумма кратна 100");
         }
     }
